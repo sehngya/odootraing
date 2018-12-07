@@ -2,7 +2,7 @@
 
 from odoo import api, fields, models
 
-class TrainingSubject(Modes.model):
+class TrainingSubject(models.Model):
     _name = 'mypscloud.traing.subject'
     _rec_name = 'name'
     
