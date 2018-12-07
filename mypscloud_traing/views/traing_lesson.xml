@@ -30,7 +30,6 @@
                     <field name="end_date"/>
                     <field name="continue_days"/>
                     <field name="seat_qty"/>
-                    <field name="domain">[]</field>
                    <!-- <field name="subject_id"/> -->
                 </tree>
             </field>

@@ -9,7 +9,6 @@
                     <field name="lesson_ids"/>
                     <field name="preson"/>
                     <field name="desc"/>
-                    <field name="domain">[]</field>
                 </tree>
             </field>
         </record>
