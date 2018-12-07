@@ -6,7 +6,7 @@
             <field name="arch" type="xml">
                 <tree string="科目列表">
                     <field name="name"/>
-                    <field name="lesson_ids"/>
+                   <!-- <field name="lesson_ids"/> -->
                     <field name="preson"/>
                     <field name="desc"/>
                 </tree>
