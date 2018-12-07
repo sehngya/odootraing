@@ -5,6 +5,7 @@ from odoo import api, fields, models
 class TrainingLesson(models.Model):
     _name = 'mypscloud.traing.lesson'
     _rec_name = 'name'
+    _description = '课程表单'
     
     name = fields.Char(u'课程名称',size=64,default=u'课程名称',transtrate=True)
     teacher_id = fields.Char(u'教师',size=64)
