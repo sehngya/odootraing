@@ -2,13 +2,9 @@
 {
     'name': 'pscloud培训作业',
 
-    'summary': ''
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': '',
 
-    'description': '培训测试'
-        Long description of module's purpose
-    """,
+    'description': '培训测试',
 
     'author': '王圣亚',
     'website': 'https://www.mypscloud.com/'',
@@ -28,7 +24,7 @@
         'views/training_subject_views.xml',
         'views/training_views.xml',
     ],
-    # only loaded in demonstration mode
+
     'demo': [
         'demo/demo.xml',
     ],
