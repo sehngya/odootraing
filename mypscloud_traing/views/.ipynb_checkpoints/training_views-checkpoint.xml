@@ -1,6 +1,6 @@
 <odoo>
   <data>
         <menuitem id="traing_menu_root" name="培训管理" sequence="0"/>
-        <menuitem id="subject_menu" parent="traing_menu_root" action="action_traing_subject" sequence="10"/>
+        <menuitem id="subject_menu" parent="traing_menu_root" action="action_mypscloud_traing_subject" sequence="10"/>
   </data>
 </odoo>
