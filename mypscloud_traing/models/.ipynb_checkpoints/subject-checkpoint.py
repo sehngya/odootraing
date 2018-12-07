@@ -11,6 +11,6 @@ class TrainingSubject(models.Model):
     #'person_id' = fields.Many2one('res.partner', u'负责人')
     desc = fields.Text(string='描述')
     #lesson_ids = fields.Many2one('mypscloud.traing.lesson','subject_id', u'课程'),
-    lesson_ids = fields.Char(u'课程'，size=64)
+    lesson_ids = fields.Char(u'课程',size=64)
     
     
