@@ -12,12 +12,12 @@
                 </tree>
             </field>
         </record>
-        <record id="action_traing_subject" model="ir.actions.act_window">
+        <record id="action_mypscloud_traing_subject_subject" model="ir.actions.act_window">
             <field name="name">科目</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">mypscloud.traing.subject</field>
             <field name="view_type">form</field>
-            <field name="view_id" ref="view_traing_subject_tree"/>
+            <field name="view_id" ref="view_mypscloud_traing_subject_tree"/>
             <field name="view_mode">tree,form</field>
         </record>
     </data>
