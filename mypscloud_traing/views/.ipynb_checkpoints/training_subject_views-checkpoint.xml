@@ -2,11 +2,11 @@
     <data>
         <record id="view_mypscloud_traing_subject_tree" model="ir.ui.view">
             <field name="name">mypscloud_traing_subject.tree</field>
-            <field name="model">mypscloud.traing.lesson</field>
+            <field name="model">mypscloud.traing.subject</field>
             <field name="arch" type="xml">
                 <tree string="科目列表">
                     <field name="name"/>
-                   <!-- <field name="lesson_ids"/> -->
+                    <field name="lesson_ids"/>
                     <field name="preson"/>
                     <field name="desc"/>
                 </tree>
