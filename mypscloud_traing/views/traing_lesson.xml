@@ -19,9 +19,9 @@
         <!--   </dl> -->
         <!-- </template> -->
 
-        <record id="view_mypscloud_training_lesson_tree" model="ir.ui.view">
-            <field name="name">mypscloud_training_lesson.tree</field>
-            <field name="model">mypscloud_training_lesson</field>
+        <record id="view_mypscloud_traing_lesson_tree" model="ir.ui.view">
+            <field name="name">mypscloud_traing_lesson.tree</field>
+            <field name="model">mypscloud_traing_lesson</field>
             <field name="arch" type="xml">
                 <tree string="课程列表">
                     <field name="name"/>
@@ -35,12 +35,12 @@
             </field>
         </record>
 
-        <record id="action_training_lesson" model="ir.actions.act_window">
+        <record id="action_traing_lesson" model="ir.actions.act_window">
             <field name="name">课程</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">training.lesson</field>
             <field name="view_type">form</field>
-            <field name="view_id" ref="view_training_lesson_tree"/>
+            <field name="view_id" ref="view_traing_lesson_tree"/>
             <field name="view_mode">tree,form,calendar,graph,pivot</field>
         </record>
     </data>

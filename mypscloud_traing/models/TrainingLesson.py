@@ -3,7 +3,7 @@
 from odoo import api, fields, models
 
 class TrainingLesson(Modes.model):
-    _name = 'mypscloud.training.lesson'
+    _name = 'mypscloud.traing.lesson'
     _rec_name = 'name'
     
     name = fields.Char(u'课程名称'，size=64,default=u'课程名称',transtrate=True)
