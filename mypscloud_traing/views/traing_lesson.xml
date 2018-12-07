@@ -19,9 +19,9 @@
         <!--   </dl> -->
         <!-- </template> -->
 
-        <record id="view_training_lesson_tree" model="ir.ui.view">
-            <field name="name">training.lesson.tree</field>
-            <field name="model">training.lesson</field>
+        <record id="view_mypscloud_training_lesson_tree" model="ir.ui.view">
+            <field name="name">mypscloud_training_lesson.tree</field>
+            <field name="model">mypscloud_training_lesson</field>
             <field name="arch" type="xml">
                 <tree string="课程列表">
                     <field name="name"/>

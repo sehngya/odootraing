@@ -1,12 +1,13 @@
 <odoo>
     <data>
-        <record id="view_training_subject_tree" model="ir.ui.view">
-            <field name="name">training.subject.tree</field>
-            <field name="model">training.subject</field>
+        <record id="view_mypscloud_training_subject_tree" model="ir.ui.view">
+            <field name="name">mypscloud_training_subject.tree</field>
+            <field name="model">mypscloud_training_subject</field>
             <field name="arch" type="xml">
                 <tree string="科目列表">
                     <field name="name"/>
                     <field name="person_id"/>
+                    <field name="lesson_ids"/>
                     <field name="desc"/>
                 </tree>
             </field>

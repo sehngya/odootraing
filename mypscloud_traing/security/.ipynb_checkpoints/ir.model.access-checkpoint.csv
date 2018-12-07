@@ -1,1 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mypscloud_traing_subject,mypscloud.training.subject,mpscloud_training.model_mypscloud_training_subject,base.group_user,1,1,1,1
+access_mypscloud_training_lesson,mypscloud.training.lesson,mpscloud_training.model_mypscloud_training_lesson,base.group_user,1,1,1,1
+
