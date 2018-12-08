@@ -23,15 +23,13 @@
             <field name="name">mypscloud_traing_lesson.tree</field>
             <field name="model">mypscloud.traing.lesson</field>
             <field name="arch" type="xml">
-                <tree string="课程列表">
+                    <calendar string="课程日期" date_start="start_date" date_stop="end_date" color="teacher_id">
                     <field name="name"/>
                     <field name="teacher_id"/>
-                    <field name="start_date"/>
-                    <field name="end_date"/>
                     <field name="seat_qty"/>
                     <field name="desc"/>
                    <!-- <field name="subject_id"/> -->
-                </tree>
+                    <calendar/>
             </field>
         </record>
 
