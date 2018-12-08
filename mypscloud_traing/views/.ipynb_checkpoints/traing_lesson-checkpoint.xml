@@ -29,7 +29,7 @@
                     <field name="seat_qty"/>
                     <field name="desc"/>
                    <!-- <field name="subject_id"/> -->
-                    <calendar/>
+                    </calendar>
             </field>
         </record>
 
